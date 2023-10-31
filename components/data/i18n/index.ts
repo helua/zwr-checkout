@@ -2,10 +2,9 @@ import i18n, { use } from "i18next"
 import translationDE from "public/static/locales/de/common.json"
 import translationEN from "public/static/locales/en/common.json"
 import translationIT from "public/static/locales/it/common.json"
-import translationPL from "public/static/locales/pl/common.json"
 import { initReactI18next } from "react-i18next"
 
-const languages = ["en", "it", "de", "pl"]
+const languages = ["en", "it", "de"]
 
 const resources = {
   en: {
@@ -16,9 +15,6 @@ const resources = {
   },
   de: {
     translation: translationDE,
-  },
-  pl: {
-    translation: translationPL,
   },
 }
 
